@@ -10,6 +10,9 @@ Uses [HackTest](https://github.com/hhvm/hacktest)
 
 `composer install` 
 
+Then run:
+`vendor/bin/hh-autoload`
+
 ### Run:
 
 To run the tests, run:
