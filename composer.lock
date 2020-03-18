@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3de16084e9baaade2017476f8c165f92",
+    "content-hash": "7901f576f9a17e495347f0bd754684b9",
     "packages": [
         {
             "name": "facebook/difflib",
@@ -152,6 +152,55 @@
             ],
             "description": "The Hack Test Library",
             "time": "2020-02-07T21:57:16+00:00"
+        },
+        {
+            "name": "hhvm/hhast",
+            "version": "v4.33.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hhast.git",
+                "reference": "9f586c80055f73c17b95742ec97627c1d11a1deb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hhast/zipball/9f586c80055f73c17b95742ec97627c1d11a1deb",
+                "reference": "9f586c80055f73c17b95742ec97627c1d11a1deb",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/difflib": "^1.0.0",
+                "facebook/hh-clilib": "^2.0.0",
+                "hhvm": "^4.33",
+                "hhvm/hhvm-autoload": "^2.0.4|^3.0",
+                "hhvm/hsl": "^4.25",
+                "hhvm/hsl-experimental": "^4.25",
+                "hhvm/type-assert": "^3.4"
+            },
+            "require-dev": {
+                "facebook/fbexpect": "^2.1.1",
+                "facebook/hack-codegen": "^4.0",
+                "hhvm/hacktest": "^2.0"
+            },
+            "bin": [
+                "bin/hhast-lint",
+                "bin/hhast-lint.hack",
+                "bin/hhast-inspect",
+                "bin/hhast-inspect.hack",
+                "bin/hhast-migrate",
+                "bin/hhast-migrate.hack"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A mutable AST library for Hack with linting and code migrations",
+            "time": "2020-02-28T18:38:22+00:00"
         },
         {
             "name": "hhvm/hhvm-autoload",
