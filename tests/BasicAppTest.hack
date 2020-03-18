@@ -11,7 +11,7 @@ use function Facebook\FBExpect\expect;
 // this class name must match the file name and extend HackTest
 final class BasicAppTest extends HackTest {
     <<__Override>>
-    public static function beforeFirstTestAsync(): void {
+    public static async function beforeFirstTestAsync(): Awaitable<void> {
         \Facebook\AutoloadMap\initialize();
     }
 
