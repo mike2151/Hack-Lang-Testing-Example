@@ -1,4 +1,5 @@
 # Hack-Lang-Testing-Example
+[![Build Status](https://travis-ci.com/mike2151/Hack-Lang-Testing-Example.svg?branch=master)](https://travis-ci.com/mike2151/Hack-Lang-Testing-Example)
  
 Barebones Hack Lang project that uses testing. Used for learning how to do testing with Hack. 
 
